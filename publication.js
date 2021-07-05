@@ -4,5 +4,6 @@ const publicationSchema = mongoose.Schema({
       name: String,
       books: [String],
 });
+// create a book model
 const PublicationModel = mongoose.model(publicationSchema);
 module.exports = PublicationModel;
